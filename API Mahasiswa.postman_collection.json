@@ -1,0 +1,207 @@
+{
+	"info": {
+		"_postman_id": "0f2272ae-fcf9-4c00-a5f4-411ccf8ca645",
+		"name": "API Mahasiswa",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Show Data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/mahasiswa",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"mahasiswa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Show one Data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/mahasiswa/20107002",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"mahasiswa",
+						"20107002"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post New Contact",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nama",
+							"value": "Ghost",
+							"type": "text"
+						},
+						{
+							"key": "nim",
+							"value": "20107000",
+							"type": "text"
+						},
+						{
+							"key": "jurusan",
+							"value": "Teknik Informatika",
+							"type": "text"
+						},
+						{
+							"key": "gender",
+							"value": "?",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "?",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "666",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/mahasiswa",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"mahasiswa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update data",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nama",
+							"value": "Ada Wong",
+							"type": "text"
+						},
+						{
+							"key": "nim",
+							"value": "20107002",
+							"type": "text"
+						},
+						{
+							"key": "jurusan",
+							"value": "Teknik Informatika",
+							"type": "text"
+						},
+						{
+							"key": "gender",
+							"value": "Female",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "wongwong@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "12345653",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/mahasiswa/20107002",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"mahasiswa",
+						"20107002"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Data",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "ImmaCoolGuy",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "spiderman123",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Peter Parker",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "spiderman@aol.com",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/mahasiswa/20107000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"mahasiswa",
+						"20107000"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

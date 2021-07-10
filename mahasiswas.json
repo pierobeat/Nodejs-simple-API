@@ -1,0 +1,99 @@
+[{
+  "_id": {
+    "$oid": "60bf1560c4bf5106a8524889"
+  },
+  "create_date": {
+    "$date": "2021-06-08T06:59:44.075Z"
+  },
+  "nama": "Chris Redfield",
+  "nim": 20107001,
+  "jurusan": "Teknik Informatika",
+  "gender": "Male",
+  "email": "chchris@gmail.com",
+  "phone": "12345653",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60bf1579c4bf5106a852488a"
+  },
+  "create_date": {
+    "$date": "2021-06-08T07:00:09.147Z"
+  },
+  "nama": "Ada Wong",
+  "nim": 20107002,
+  "jurusan": "Teknik Informatika",
+  "gender": "Female",
+  "email": "wongwong@gmail.com",
+  "phone": "12345653",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60bf1590c4bf5106a852488b"
+  },
+  "create_date": {
+    "$date": "2021-06-08T07:00:32.138Z"
+  },
+  "nama": "Leon Kennedy",
+  "nim": 20107003,
+  "jurusan": "Teknik Informatika",
+  "gender": "Male",
+  "email": "leoleon@gmail.com",
+  "phone": "12345653",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60bf159fc4bf5106a852488c"
+  },
+  "create_date": {
+    "$date": "2021-06-08T07:00:47.998Z"
+  },
+  "nama": "Jerry Miller",
+  "nim": 20107004,
+  "jurusan": "Teknik Informatika",
+  "gender": "Male",
+  "email": "miller@gmail.com",
+  "phone": "12345653",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60bf15b7c4bf5106a852488d"
+  },
+  "create_date": {
+    "$date": "2021-06-08T07:01:11.343Z"
+  },
+  "nama": "Jessica",
+  "nim": 20107005,
+  "jurusan": "Teknik Informatika",
+  "gender": "Female",
+  "email": "jessie@gmail.com",
+  "phone": "12345653",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60bf17a4c835e1097c2df0f0"
+  },
+  "create_date": {
+    "$date": "2021-06-08T07:09:24.320Z"
+  },
+  "nama": "Julian Valentine",
+  "nim": 20107006,
+  "jurusan": "Teknik Informatika",
+  "gender": "Male",
+  "email": "ojul@gmail.com",
+  "phone": "12345653",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60bf17c5c835e1097c2df0f1"
+  },
+  "create_date": {
+    "$date": "2021-06-08T07:09:57.449Z"
+  },
+  "nama": "Jill Valentine",
+  "nim": 20107007,
+  "jurusan": "Teknik Informatika",
+  "gender": "Female",
+  "email": "jilivalentine@gmail.com",
+  "phone": "12345653",
+  "__v": 0
+}]

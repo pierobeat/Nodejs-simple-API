@@ -6,6 +6,5 @@ Rest API sederhana dengan studi kasus data mahasiswa, didalamnya terdapat inform
 
 Require :
   - Express
-  - Body Parser
   - mongoose
   - nodemon
